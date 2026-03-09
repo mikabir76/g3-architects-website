@@ -1,6 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --dark1: #131313;
+    --dard2: #424242;
+    --dark3: #727272;
+
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* Shared codes */
+.work-sans {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+.display-flex{
+    display: flex;
+}
+a{
+    text-decoration: none;
+    
+}
+li{
+    list-style-type: none;
+}
+/* Random codes */
+.navbar{
+    justify-content: space-between;
+}
+.nav-item a{
+color: var(--dard2);
 }
